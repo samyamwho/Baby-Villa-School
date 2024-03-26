@@ -24,7 +24,7 @@ import slide_image_9 from '../../assets/images/img_9.jpg';
 const Events = () => {
   return (
     
-    <div>
+    <div id='event'>
         <h1 className="heading">Events</h1>
         <div className="container">
             

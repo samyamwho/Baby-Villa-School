@@ -5,7 +5,7 @@ import './Facilities.css'
 
 const Facilities = () => {
     return (
-        <div style={{ }}>
+        <div style={{ }} id='fact'>
             <h1 className='text1'> Our Facilities </h1>
 
             <div className='parent'>

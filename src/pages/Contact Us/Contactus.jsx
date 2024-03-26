@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './styles.css';
-import Navbar from '../Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 const Contactus = () => {
   useEffect(() => {
@@ -32,6 +33,7 @@ const Contactus = () => {
   }, []);
 
   return (
+    
     <>
       <Navbar />
       <div class="container">
@@ -82,7 +84,7 @@ const Contactus = () => {
             <span class="circle one"></span>
             <span class="circle two"></span>
 
-            <form action="index.html" autocomplete="off">
+            <form action="https://getform.io/f/eapdjpoa" method='post' autocomplete="off">
               <h3 class="title">Contact us</h3>
               <div class="input-container">
                 <input type="text" name="name" class="input" />
@@ -109,6 +111,7 @@ const Contactus = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 };

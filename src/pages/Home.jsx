@@ -5,6 +5,8 @@ import Aboutus from '../components/About-us/Aboutus'
 
 import Events from '../components/Events/Events'
 import Facilities from '../components/Facilities/Facilities'
+import Findus from '../components/Findus/Findus'
+import Footer from '../components/Footer/Footer'
 
 
 const Home = () => {
@@ -26,6 +28,8 @@ const Home = () => {
     <div>
       <Facilities/>
     </div>
+    <div><Findus/></div >
+    <div> <Footer/></div>
   </>
   )
 }

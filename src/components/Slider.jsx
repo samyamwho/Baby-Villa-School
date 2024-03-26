@@ -96,7 +96,7 @@ const Slider = () => {
   };
 
   return (
-    <Container>
+    <Container id='home'>
       <Arrow direction="left" onClick={() => handleClick('left')}>
         <ArrowLeftOutlinedIcon />
       </Arrow>

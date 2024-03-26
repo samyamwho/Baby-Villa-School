@@ -8,7 +8,7 @@ import Welcome from '../../assets/images/hi.png'
 
 const Aboutus = () => {
   return (
-    <><div className='about'><span style={{ fontFamily: 'El Messiri', color: 'black' }}>ABOUT-</span><p> </p> <span style={{ fontFamily: 'El Messiri', color: 'green' }}>US</span></div>
+    <><div id='aboutus' className='about'><span style={{ fontFamily: 'El Messiri', color: 'black' }}>ABOUT-</span><p> </p> <span style={{ fontFamily: 'El Messiri', color: 'green' }}>US</span></div>
       <div className='parents'>
         <span id='text1'>Hey We  Have Been Looking</span><span style={{fontFamily:'El Messiri',fontSize:'30px', color:'green'}}>        For You !</span>
         <p style={{fontFamily:'Poppins',fontSize:'24px', marginLeft:'3%',marginRight:'5%',marginTop:'20px',color:'gray'}}>Young minds are like clay that can take any shape and become anything they want but we should not try to mold them into a figure we want them to be. Every child is special. They are all unique and defined so we should encourage their individuality. Education should be fun. These are the principle on which Baby Villa School has been founded.</p>
